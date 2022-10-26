@@ -1,0 +1,22 @@
+{
+  "name": "landing-umptn-muhamadrijal",
+  "version": "1.0.0",
+  "description": "UMPTN Day 3 - Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx lite-server --baseDir=\"./src\"",
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "dev": "concurrently \"npm run server\" \"npm run tailwind\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.1"
+  },
+  "keywords": [],
+  "author": "euxzy",
+  "license": "ISC"
+}
